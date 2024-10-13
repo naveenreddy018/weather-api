@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/aZSazBV.jpg);
+}
+#card1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.85);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #2F4F4F;
+    display: flex;
+    gap:15px;
+    text-align: center;
+}
+
+#card2 {
+    background-color: rgba(255, 250, 250, 0.95);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-content: center;
+    color: #4A148C;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.childdiv1, .childdiv2 {
+    background-color: rgba(255, 223, 186, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #FF8C00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
